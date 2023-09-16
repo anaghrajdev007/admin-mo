@@ -1,4 +1,5 @@
 import {useState} from "react"
+import Navbar from "./components/navbar/Navbar";
 const App = () => {
   const[sidebarOpne, setSidebarOpen] = useState(false);
 
@@ -11,6 +12,7 @@ const App = () => {
   }
   return (
     <div className = "container">
+      <Navbar sidebarOpen={sidebarOpne} openSidebar={openSidebar}/>
       <h1>Dashboard</h1>
     </div>
   );

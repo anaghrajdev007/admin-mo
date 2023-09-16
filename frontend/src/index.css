@@ -57,7 +57,7 @@ body{
   "sidebar nav nav nav"
   "sidebar main nav nav";
 }
-@media only screen and (max-width: 978px){
+@media only screen and (min-width: 978px){
   .container{
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 3fr;

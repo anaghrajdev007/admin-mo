@@ -16,10 +16,10 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
     </div>
     <div className="navbar__right">
       <a href="">
-      <i class='bx bx-search-alt'></i>
+      <i className='bx bx-search-alt'></i>
       </a>
       <a href="#">
-      <i class='bx bx-stopwatch'></i>
+      <i className='bx bx-stopwatch'></i>
       </a>
       <a href="#">
         <img width="30" src={image} alt="avatar" />

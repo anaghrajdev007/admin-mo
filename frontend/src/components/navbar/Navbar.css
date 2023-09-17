@@ -22,7 +22,7 @@
     font-size: 15px;
     font-weight: 700;
 }
-.navbar__left .active_link {
+.navbar__left .active_link{
     color: #265acc;
     border-bottom: 3px solid #265acc !important;
     padding-bottom: 12px;

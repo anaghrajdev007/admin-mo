@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
-    <div className={sidebarOpen ? "sidebar-responsive" : ""} id="sidebar">
+    <div className={sidebarOpen ? "sidebar-responsive" : " "} id="sidebar">
       <div className="sidebar__title">
         <div className="sidebat__img">
           <img src={logo} alt="MotorOctane" />

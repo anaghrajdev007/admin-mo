@@ -1,0 +1,33 @@
+#sidebar{
+    background: #020509;
+    grid-area: sidebar;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    
+}
+.sidebar__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f3f4f6;
+    margin-bottom: 30px;
+}
+.sidebat__img{
+    display: flex;
+    align-items: center;
+    /* height: 75px; */
+}
+.sidebar__title > div > img{
+    width: 75px;
+    object-fit: contain;
+}
+.sidebar__title > div > h1 {
+    font-size: 18px;
+    display: inline;
+}
+.sidebar__title > i{
+    font-size: 18px;
+    display: none;
+}

@@ -24,9 +24,46 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2>MNG</h2>
         <div className="sidebar__link">
         <i className='bx bxs-user-check'></i>
-        <a href="#">Admin Management</a>
+        <a href="/">Admin Management</a>
         </div>
-        <div className="sidebar__link"></div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <h2>More</h2>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <h2>Some More</h2>
+        <div className="sidebar__link">
+        <i className='bx bxs-user-check'></i>
+        <a href="/">Mobile Management</a>
+        </div>
+        <div className="sidebar__link">
+        <i class='bx bxs-log-out'></i>
+        <a href="/">Log Out</a>
+        </div>
       </div>
     </div>
   );

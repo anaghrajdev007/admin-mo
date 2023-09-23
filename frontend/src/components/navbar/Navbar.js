@@ -10,18 +10,18 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
     <i class='bx bx-menu'></i>
     </div>
     <div className="navbar__left">
-        <a href="#">Subscrivers</a>
-        <a href="#">Video MAnagers</a>
-        <a href="#">Admin</a>
+        <a href="/">Subscrivers</a>
+        <a href="/">Video MAnagers</a>
+        <a href="/">Admin</a>
     </div>
     <div className="navbar__right">
-      <a href="">
+      <a href="/">
       <i className='bx bx-search-alt'></i>
       </a>
-      <a href="#">
+      <a href="/">
       <i className='bx bx-stopwatch'></i>
       </a>
-      <a href="#">
+      <a href="/">
         <img width="30" src={image} alt="avatar" />
       </a>
     </div>

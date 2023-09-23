@@ -60,7 +60,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <i className='bx bxs-user-check'></i>
         <a href="/">Mobile Management</a>
         </div>
-        <div className="sidebar__link">
+        <div className="sidebar__logout">
         <i class='bx bxs-log-out'></i>
         <a href="/">Log Out</a>
         </div>
